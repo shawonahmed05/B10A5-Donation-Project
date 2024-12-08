@@ -203,5 +203,20 @@
       class="w-11/12 hidden mx-auto space-y-5 mt-4"
     ></section>
   </main>
+  <!-- Modal section  -->
+  <dialog id="show-modal-btn" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box">
+      <h3 class="text-4xl font-bold text-center">Congrates!</h3>
+      <img class="mx-auto w-10 py-5" src="./assets/coin.png" alt="" />
+      <p class="py-4 text-center">You Have Donated for Humankind</p>
+      <h3 class="text-xl font-bold text-center">Successfully</h3>
+      <div class="modal-action justify-center">
+        <form method="dialog">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn">close confirmation</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
 </body>
 </html>
